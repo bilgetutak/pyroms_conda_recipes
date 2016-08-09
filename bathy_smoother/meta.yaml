@@ -1,0 +1,39 @@
+package:
+  name: bathy_smoother
+  version: "0.1.1"
+
+source:
+#  git_rev: 
+#  git_url: https://github.com/bilgetutak/pyroms.git
+   path: /opt/depo/model/git_contrib/pyroms_test/bathy_smoother
+
+build:
+  preserve_egg_dir: True
+  #rpaths:
+  #  - python2.7/site-packages/pyroms/lib
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - scipy
+  run:
+    - python
+    - numpy
+    - scipy
+    - matplotlib
+    - basemap
+    - netcdf4
+    - pyroms
+    - pyroms_toolbox
+    - ipython
+
+# test:
+#   imports:
+#     - pyroms
+
+about:
+  home: https://github.com/bilgetutak/pyroms.git
+  license: BSD
+  license_file: LICENSE.txt
