@@ -5,7 +5,7 @@ package:
 source:
 #  git_rev: 
 #  git_url: https://github.com/bilgetutak/pyroms.git
-   path: /opt/depo/model/git_contrib/pyroms_test/pyroms_toolbox
+   path: /opt/depo/model/git_contrib/pyroms/pyroms_toolbox
 
 build:
   preserve_egg_dir: True
